@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\univer\proga\2sem\firstlab\firstlab\main.cpp(61): warning C4800: 'Halberdier *': forcing value to bool 'true' or 'false' (performance warning)
+c:\univer\proga\2sem\firstlab\firstlab\main.cpp(69): warning C4800: 'Skeleton *': forcing value to bool 'true' or 'false' (performance warning)
+c:\univer\proga\2sem\firstlab\firstlab\main.cpp(79): warning C4800: 'Skeleton *': forcing value to bool 'true' or 'false' (performance warning)
+c:\univer\proga\2sem\firstlab\firstlab\main.cpp(88): warning C4800: 'Halberdier *': forcing value to bool 'true' or 'false' (performance warning)
+  FirstLab.vcxproj -> C:\UNIVER\Proga\2sem\FirstLab\Debug\FirstLab.exe
+  FirstLab.vcxproj -> C:\UNIVER\Proga\2sem\FirstLab\Debug\FirstLab.pdb (Full PDB)
