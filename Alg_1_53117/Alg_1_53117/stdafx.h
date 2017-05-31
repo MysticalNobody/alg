@@ -9,35 +9,11 @@
 
 #include <stdio.h>
 #include <tchar.h>
-class ListObject {
-public:
-	int data_;
-	ListObject *pervious_;
-	ListObject *next_;
-};
 
-
-class List {
-public:
-	List();
-
-	~List();
-
-	void add(int data);
-
-	void remove(int data);
-
-	int getSize();
-
-	void print();
-
-	ListObject *getHead();
-
-	ListObject *getEnd();
-private:
-	ListObject *head_;
-	ListObject *end_;
-	int size_;
-};
-
+void bubbleSort(int*, int);
+void qSort(int*, int, int);
+void countSort(int*, int);
+void selectionSort(int*, int);
+void shellSort(int*, int);
+void insertSort(int*, int);
 // TODO: reference additional headers your program requires here
