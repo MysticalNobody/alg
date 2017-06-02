@@ -15,14 +15,14 @@ public:
 	void add(int data);
 
 	void remove(int data);
-
+	int averegeValue();
 	int getSize();
 
 	void print();
 
-	ListObject *getHead();
+	ListObject* getHead();
 
-	ListObject *getEnd();
+	ListObject* getEnd();
 private:
 	ListObject *head_;
 	ListObject *end_;

@@ -32,7 +32,7 @@ int main()
 	unsigned int search_time = end_time - start_time; // искомое время
 	std::cout << "Quick sort";
 	std::cout << "Array:  ";
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 9; i++)
 	{
 		std::cout << input_array[i] << "  ";
 	}
@@ -42,12 +42,12 @@ int main()
 #pragma region countSort
 	fillArray(input_array, size_array);
 	start_time = clock();
-	countSort(input_array, size_array);
+	input_array = countSort(input_array, size_array);
 	end_time = clock(); // конечное время
 	search_time = end_time - start_time; // искомое время
 	std::cout << "Count sort";
 	std::cout << "Array:  ";
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 9; i++)
 	{
 		std::cout << input_array[i] << "  ";
 	}
@@ -62,7 +62,7 @@ int main()
 	search_time = end_time - start_time; // искомое время
 	std::cout << "Insert sort";
 	std::cout << "Array:  ";
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 9; i++)
 	{
 		std::cout << input_array[i] << "  ";
 	}
@@ -77,7 +77,7 @@ int main()
 	search_time = end_time - start_time; // искомое время
 	std::cout << "Selection sort";
 	std::cout << "Array:  ";
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 9; i++)
 	{
 		std::cout << input_array[i] << "  ";
 	}
@@ -92,7 +92,7 @@ int main()
 	search_time = end_time - start_time; // искомое время
 	std::cout << "Shell sort";
 	std::cout << "Array:  ";
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 9; i++)
 	{
 		std::cout << input_array[i] << "  ";
 	}
@@ -107,7 +107,7 @@ int main()
 	search_time = end_time - start_time; // искомое время
 	std::cout << "Bubble sort";
 	std::cout << "Array:  ";
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 9; i++)
 	{
 		std::cout << input_array[i] << "  ";
 	}
