@@ -12,7 +12,7 @@
 
 void bubbleSort(int*, int);
 void qSort(int*, int, int);
-void countSort(int*, int);
+int* countSort(int*, int);
 void selectionSort(int*, int);
 void shellSort(int*, int);
 void insertSort(int*, int);
